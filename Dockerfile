@@ -1,4 +1,4 @@
-FROM marvambass/nginx-ssl-secure
-MAINTAINER MarvAmBass
+FROM fss/nginx-ssl-secure
+MAINTAINER dgregory
 
 ADD docker-registry.conf /etc/nginx/conf.d/docker-registry.conf
