@@ -1,0 +1,17 @@
+# ignore gedit backups
+*.*~
+
+# ignore maven droppings
+target/
+dist/
+
+# ignore Eclipse droppings
+.project
+.classpath
+.settings/
+
+# ignore IntelliJ Idea droppings
+.idea/
+.iml
+*.iml
+
